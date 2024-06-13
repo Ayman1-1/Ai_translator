@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English-to-French Translation</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Translate English to French</h1>
+        <form action="/translate" method="post">
+            <label for="english_text">Enter English text:</label>
+            <textarea id="english_text" name="english_text" rows="4" cols="50"></textarea>
+            <br><br>
+            <input type="submit" value="Translate">
+        </form>
+
+        {% if translated_text %}
+        <div class="result">
+            <h2>Translation Result</h2>
+            <p><strong>English text:</strong> {{ english_text }}</p>
+            <p><strong>French text:</strong> {{ translated_text }}</p>
+            <br>
+            <a href="/">Translate another text</a>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
