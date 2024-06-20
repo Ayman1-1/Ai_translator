@@ -4,7 +4,7 @@ This project is a web application that translates English text to French using a
 
 # Project Structure
 
-english_to_french_translation/
+Ai_translator/
 ├── templates/
 │ └── index.html
 ├── static/
