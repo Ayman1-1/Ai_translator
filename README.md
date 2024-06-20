@@ -31,8 +31,8 @@ english_to_french_translation/
 ## Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/english_to_french_translation.git
-cd english_to_french_translation
+git clone https://github.com/Ayman1-1/Ai_translator
+cd Ai_translator
 
 # Install the required Python packages:
 pip install -r requirements.txt
