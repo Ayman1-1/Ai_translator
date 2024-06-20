@@ -1,3 +1,51 @@
-Before executing the app, you should download this folder and add it to the project.
+## English-to-French Translation Model Training
+
+This project is a web application that translates English text to French using a pre-trained MarianMT model. The application is built using Flask for the backend and Hugging Face's `transformers` library for the machine learning model.
+
+# Project Structure
+
+english_to_french_translation/
+├── templates/
+│ └── index.html
+├── static/
+│ └── style.css
+├── app.py
+├── results/
+│ ├── model/
+│ ├── tokenizer/
+│ └── generation_config/
+├── requirements.txt
+└── README.md
+
+# Requirements
+
+- Python 3.6 or higher
+- Flask
+- transformers
+- torch
+- sentencepiece
+- Kaggle API token for dataset download
+
+# Setup
+
+## Clone the repository:
+
+```sh
+git clone https://github.com/yourusername/english_to_french_translation.git
+cd english_to_french_translation
+
+# Install the required Python packages:
+pip install -r requirements.txt
+
+#Run the Flask application:
+
+python app.py
+#Access the web application
+Open your web browser and navigate to http://127.0.0.1:5000/.
+
 
 Folder URL: [Download Folder](https://drive.google.com/drive/folders/1kHdfY8Ga4xNbn5CsiAiOAoNizm00WBqM?usp=drive_link)
+
+
+This `README.md` file now includes step-by-step instructions on setting up the project, installing the necessary packages, and running the application.
+```
