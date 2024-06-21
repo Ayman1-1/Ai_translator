@@ -30,24 +30,24 @@ Ai_translator/
 
 ## Clone the repository:
 
-```sh
+
 git clone https://github.com/Ayman1-1/Ai_translator
 cd Ai_translator
 
-# Install the required Python packages:
+## Install the required Python packages:
 pip install -r requirements.txt
 
-#Run the Flask application:
+## Run the Flask application:
 
 python app.py
 #Access the web application
 Open your web browser and navigate to http://127.0.0.1:5000/.
 
-# Additional Resources
+## Additional Resources
 
-# - **Folder URL:** [Download Folder](https://drive.google.com/drive/folders/1kHdfY8Ga4xNbn5CsiAiOAoNizm00WBqM?usp=sharing)
+Folder URL: [Download Folder](https://drive.google.com/drive/folders/1kHdfY8Ga4xNbn5CsiAiOAoNizm00WBqM?usp=sharing)
 
-Folder model URL: [Download Folder](https://drive.google.com/drive/folders/1Ib0XJbzghSZfQwv7FMO87ySm4-tkV5Cc?usp=sharing)
+
 
 
 This `README.md` file now includes step-by-step instructions on setting up the project, installing the necessary packages, and running the application.
