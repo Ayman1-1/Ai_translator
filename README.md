@@ -44,7 +44,7 @@ python app.py
 Open your web browser and navigate to http://127.0.0.1:5000/.
 
 
-Folder URL: [Download Folder](https://drive.google.com/drive/folders/1kHdfY8Ga4xNbn5CsiAiOAoNizm00WBqM?usp=drive_link)
+Folder URL: [Download Folder](https://drive.google.com/drive/folders/1kHdfY8Ga4xNbn5CsiAiOAoNizm00WBqM?usp=sharing)
 
 
 This `README.md` file now includes step-by-step instructions on setting up the project, installing the necessary packages, and running the application.
