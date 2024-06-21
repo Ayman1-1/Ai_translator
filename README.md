@@ -43,9 +43,10 @@ python app.py
 #Access the web application
 Open your web browser and navigate to http://127.0.0.1:5000/.
 
-## Additional Resources
+# Additional Resources
 
 - **Folder URL:** [Download Folder](https://drive.google.com/drive/folders/1kHdfY8Ga4xNbn5CsiAiOAoNizm00WBqM)
+
 
 
 
